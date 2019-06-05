@@ -1,9 +1,3 @@
-/*!
-* Wireframe Pingendo template (https://templates.pingendo.com)
-* Based on: Bootstrap v4.1.3 (https://getbootstrap.com)
-* Copyright 2014-2018 Pingendo (https://pingendo.com)
-*/
- 
 // Options
 // 
 // Quickly modify global styling by enabling or disabling optional features.
@@ -54,11 +48,7 @@ $font-weight-base: $font-weight-normal;
 $line-height-base: 1.5;
 $headings-line-height: 1.2;
 $enable-responsive-font-sizes: true;
-$font-size-base: 1rem;
-
-
-
-
+$font-size-base: .875rem;
 
 @import 'bootstrap-4.1.3';
 
@@ -98,88 +88,118 @@ body {
   background: #F5F5F5;
 }
 
-.btn-primary {
+.btn, .btn-primary, .btn-secondary, .btn-outline-secondary, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   border-radius: 25px;
 }
 
-.orange-divider {
-  border-bottom: 3px solid #FFA750;
+.bg-home-bacteria {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+51,d5ebfb+100;Blue+Gloss+%234 */
+background: #2E76A3 url('assets/header-bg2.png') center left no-repeat;
+  background-position: contain;
+
+
 }
 
+.hr--brand {
+  border-top: 3px solid #FFA750;
+}
+
+.hr--brand-sm {
+	border-top: 1px solid theme-color(secondary);
+}
+
+
+.navbar-patric>.nav>div>.nav-item {}
+.navbar-patric>.nav>div>.dropdown>.dropdown-menu {}
+
 .navbar-patric {
-  .dropdown-menu { top: 36px !important; border: none !important; border-radius: 0 0 0 0; }
-  .navbar-brand { padding:0px; }
-  .nav-item { padding: .125rem .125rem !important; margin: 0 !important; }
-  .nav-link.dropdown-toggle {
+background: #2e76a3 !important;
+background: -moz-linear-gradient(top,  #2e76a3 0%, #154e72 100%) !important;
+background: -webkit-linear-gradient(top,  #2e76a3 0%,#154e72 100%) !important;
+background: linear-gradient(to bottom,  #2e76a3 0%,#154e72 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e76a3', endColorstr='#154e72',GradientType=0 );
+border-top: 3px solid #154E72;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+/* makes the dropdown full width */
+.navbar-patric>.nav>div>.dropdown {position:static;}
+
+
+.navbar-patric>.nav>div>.dropdown>.dropdown-menu {
+  border: none !important; 
+  border-radius: 0 0 0 0; 
+width: 100%;
+  left:0;
+  right:0;
+  top:36px;
+  transition: visibility 0s, opacity 0.25s linear;
+  display:block;
+  visibility: hidden;
+  opacity: 0;
+    background-color: #fff;
+}
+
+.navbar-brand { padding:0px; }
+
+.navbar-patric>.nav>div>.nav-item { padding: .125rem .125rem; margin: 0; }
+
+.navbar-patric>.nav>div>.nav-item>.nav-link.dropdown-toggle {
   font-family: Lato;
   font-size: .75rem;
   color: white !important;
   }
-  .navbar-brand { text-indent: -9999px; width: 111px; margin-top: 1px; }
+
+.navbar-brand { text-indent: -9999px; width: 111px; margin-top: 1px;  margin-right: 0px;
+  color: white; }
+
+
+/* keep nav bar expanded to mobile */
+.navbar-expand-sm {
+flex-flow: row nowrap;
+justify-content: flex-start;
 }
 
 
-.brand-search {
-  /* display: flex; */
-}
+  /* shows the dropdown menu on hover */
+.navbar-patric>.nav>div>.dropdown:hover>.dropdown-menu, .navbar-patric>.nav>div>.dropdown>.dropdown-menu:hover, .navbar-patric>.nav>div>.dropdown.show>.dropdown-menu {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.25s linear;
 
-.brand-search .navbar-brand {
-  margin-right: 0px;
-  color: white;
 }
+  
 
-/* adds some margin below the link sets  */
-.navbar .dropdown-menu div[class*="col"] {
-  margin-bottom:1rem;
-}
-
-.navbar .dropdown-menu {
- border:none;
- background-color:#fff!important;
-}
-
-/* breakpoint and up - mega dropdown styles */
-/* @media screen and (min-width: 992px) { */
- 
- /* remove the padding from the navbar so the dropdown hover state is not broken */
-.navbar {
- padding-top:0px;
- padding-bottom:0px;
-}
-
-/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
-.navbar .nav-item {
- padding:.5rem .5rem;
- margin:0 .25rem;
-}
-
-/* makes the dropdown full width  */
-.navbar .dropdown {position:static;}
-
-.navbar .dropdown-menu {
- width:100%;
- left:0;
- right:0;
-/*  height of nav-item  */
- top:45px;
-}
- 
- /* shows the dropdown menu on hover */
-.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
- display:block!important;
-}
- 
- .navbar .dropdown-menu {
-   border: 1px solid rgba(0,0,0,.15);
-   background-color: #fff;
- }
-
-.fixed {
+.navbar-patric>.nav>div>.dropdown:hover, .navbar-patric>.nav>div>.dropdown.show {
+		border-top: 3px solid theme-color(secondary);
+  	margin-top: -3px !important;
 }
 
 .pill-border {
-	border: 1px solid theme-color(info);
+	border: 1px solid #d5d5d5;
   border-radius: 30px;	
   padding: 3px 15px 3px 3px;
-	
+  &:hover {
+  	border: 1px solid theme-color(primary);
+    background-color: #eeeeee;
+  }
 }
+
+.carousel-control-prev, .carousel-control-next {
+	color: theme-color(secondary);
+}
+
+.carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover {
+	color: theme-color(secondary);
+}
+
+.carousel-indicators li {
+	background-color: theme-color(dark);
+}
+
+.carousel-indicators .active {
+	background-color: theme-color(secondary);
+}
+

@@ -1,9 +1,4 @@
 /*!
-* Wireframe Pingendo template (https://templates.pingendo.com)
-* Based on: Bootstrap v4.1.3 (https://getbootstrap.com)
-* Copyright 2014-2018 Pingendo (https://pingendo.com)
-*/
-/*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -62,7 +57,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #333;
@@ -313,22 +308,22 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 2.1875rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
-
-h3, .h3 {
   font-size: 1.75rem; }
 
+h3, .h3 {
+  font-size: 1.53125rem; }
+
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 1.3125rem; }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 1.09375rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.875rem; }
 
 .lead {
   font-size: 1.3rem;
@@ -389,7 +384,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1.5rem;
-  font-size: 1.25rem; }
+  font-size: 1.09375rem; }
 
 .blockquote-footer {
   display: block;
@@ -1260,9 +1255,9 @@ pre {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.0625rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -1318,13 +1313,13 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: 1.5; }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5; }
 
 .form-control-plaintext {
@@ -1343,16 +1338,16 @@ select.form-control:focus::-ms-value {
     padding-left: 0; }
 
 .form-control-sm {
-  height: calc(1.8125rem + 2px);
+  height: calc(1.64844rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
 .form-control-lg {
-  height: calc(2.875rem + 2px);
+  height: calc(2.64062rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
@@ -1420,7 +1415,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
@@ -1502,7 +1497,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
@@ -1625,7 +1620,7 @@ textarea.form-control {
           user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
@@ -2046,13 +2041,13 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -2118,7 +2113,7 @@ input[type="button"].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #333;
   text-align: left;
   list-style: none;
@@ -2253,7 +2248,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   color: #6c757d;
   white-space: nowrap; }
 
@@ -2441,7 +2436,7 @@ input[type="button"].btn-block {
   align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -2459,9 +2454,9 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  height: calc(2.875rem + 2px);
+  height: calc(2.64062rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
@@ -2470,9 +2465,9 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  height: calc(1.8125rem + 2px);
+  height: calc(1.64844rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -2497,7 +2492,7 @@ input[type="button"].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 1.5rem;
+  min-height: 1.3125rem;
   padding-left: 1.5rem; }
 
 .custom-control-inline {
@@ -2528,7 +2523,7 @@ input[type="button"].btn-block {
   margin-bottom: 0; }
   .custom-control-label::before {
     position: absolute;
-    top: 0.25rem;
+    top: 0.15625rem;
     left: -1.5rem;
     display: block;
     width: 1rem;
@@ -2543,7 +2538,7 @@ input[type="button"].btn-block {
     box-shadow: inset 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1); }
   .custom-control-label::after {
     position: absolute;
-    top: 0.25rem;
+    top: 0.15625rem;
     left: -1.5rem;
     display: block;
     width: 1rem;
@@ -2590,7 +2585,7 @@ input[type="button"].btn-block {
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.0625rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -2621,13 +2616,13 @@ input[type="button"].btn-block {
     opacity: 0; }
 
 .custom-select-sm {
-  height: calc(1.8125rem + 2px);
+  height: calc(1.64844rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 75%; }
 
 .custom-select-lg {
-  height: calc(2.875rem + 2px);
+  height: calc(2.64062rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%; }
@@ -2636,14 +2631,14 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.0625rem + 2px);
   margin-bottom: 0; }
 
 .custom-file-input {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.0625rem + 2px);
   margin: 0;
   opacity: 0; }
   .custom-file-input:focus ~ .custom-file-label {
@@ -2662,7 +2657,7 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc(2.25rem + 2px);
+  height: calc(2.0625rem + 2px);
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -2677,7 +2672,7 @@ input[type="button"].btn-block {
     bottom: 0;
     z-index: 3;
     display: block;
-    height: 2.25rem;
+    height: 2.0625rem;
     padding: 0.375rem 0.75rem;
     line-height: 1.5;
     color: #495057;
@@ -2874,10 +2869,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.33594rem;
+  padding-bottom: 0.33594rem;
   margin-right: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -2908,7 +2903,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -3384,7 +3379,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   line-height: 1.5; }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -3397,7 +3392,7 @@ input[type="button"].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   line-height: 1.5; }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -3522,7 +3517,7 @@ input[type="button"].btn-block {
   font-weight: 700; }
 
 .alert-dismissible {
-  padding-right: 4rem; }
+  padding-right: 3.8125rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
@@ -3618,7 +3613,7 @@ input[type="button"].btn-block {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.75rem;
+  font-size: 0.65625rem;
   background-color: #e9ecef;
   border-radius: 0.25rem;
   box-shadow: inset 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1); }
@@ -3796,7 +3791,7 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 1.3125rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -3960,7 +3955,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   word-wrap: break-word;
   opacity: 0; }
   .tooltip.show {
@@ -4045,7 +4040,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.76562rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -4151,7 +4146,7 @@ button.close {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: inherit;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
@@ -6527,81 +6522,97 @@ html, body {
 body {
   background: #F5F5F5; }
 
-.btn-primary {
+.btn, .btn-primary, .btn-secondary, .btn-outline-secondary, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   border-radius: 25px; }
 
-.orange-divider {
-  border-bottom: 3px solid #FFA750; }
+.bg-home-bacteria {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+51,d5ebfb+100;Blue+Gloss+%234 */
+  background: #2E76A3 url("assets/header-bg2.png") center left no-repeat;
+  background-position: contain; }
 
-.navbar-patric .dropdown-menu {
-  top: 36px !important;
+.hr--brand {
+  border-top: 3px solid #FFA750; }
+
+.hr--brand-sm {
+  border-top: 1px solid #FFA750; }
+
+.navbar-patric {
+  background: #2e76a3 !important;
+  background: linear-gradient(to bottom, #2e76a3 0%, #154e72 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e76a3', endColorstr='#154e72',GradientType=0 );
+  border-top: 3px solid #154E72;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+/* makes the dropdown full width */
+.navbar-patric > .nav > div > .dropdown {
+  position: static; }
+
+.navbar-patric > .nav > div > .dropdown > .dropdown-menu {
   border: none !important;
-  border-radius: 0 0 0 0; }
+  border-radius: 0 0 0 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 36px;
+  transition: visibility 0s, opacity 0.25s linear;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #fff; }
 
-.navbar-patric .navbar-brand {
+.navbar-brand {
   padding: 0px; }
 
-.navbar-patric .nav-item {
-  padding: .125rem .125rem !important;
-  margin: 0 !important; }
+.navbar-patric > .nav > div > .nav-item {
+  padding: .125rem .125rem;
+  margin: 0; }
 
-.navbar-patric .nav-link.dropdown-toggle {
+.navbar-patric > .nav > div > .nav-item > .nav-link.dropdown-toggle {
   font-family: Lato;
   font-size: .75rem;
   color: white !important; }
 
-.navbar-patric .navbar-brand {
+.navbar-brand {
   text-indent: -9999px;
   width: 111px;
-  margin-top: 1px; }
-
-.brand-search {
-  /* display: flex; */ }
-
-.brand-search .navbar-brand {
+  margin-top: 1px;
   margin-right: 0px;
   color: white; }
 
-/* adds some margin below the link sets  */
-.navbar .dropdown-menu div[class*="col"] {
-  margin-bottom: 1rem; }
-
-.navbar .dropdown-menu {
-  border: none;
-  background-color: #fff !important; }
-
-/* breakpoint and up - mega dropdown styles */
-/* @media screen and (min-width: 992px) { */
-/* remove the padding from the navbar so the dropdown hover state is not broken */
-.navbar {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-
-/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
-.navbar .nav-item {
-  padding: .5rem .5rem;
-  margin: 0 .25rem; }
-
-/* makes the dropdown full width  */
-.navbar .dropdown {
-  position: static; }
-
-.navbar .dropdown-menu {
-  width: 100%;
-  left: 0;
-  right: 0;
-  /*  height of nav-item  */
-  top: 45px; }
+/* keep nav bar expanded to mobile */
+.navbar-expand-sm {
+  flex-flow: row nowrap;
+  justify-content: flex-start; }
 
 /* shows the dropdown menu on hover */
-.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
-  display: block !important; }
+.navbar-patric > .nav > div > .dropdown:hover > .dropdown-menu, .navbar-patric > .nav > div > .dropdown > .dropdown-menu:hover, .navbar-patric > .nav > div > .dropdown.show > .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.25s linear; }
 
-.navbar .dropdown-menu {
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  background-color: #fff; }
+.navbar-patric > .nav > div > .dropdown:hover, .navbar-patric > .nav > div > .dropdown.show {
+  border-top: 3px solid #FFA750;
+  margin-top: -3px !important; }
 
 .pill-border {
-  border: 1px solid #8e8e8e;
+  border: 1px solid #d5d5d5;
   border-radius: 30px;
   padding: 3px 15px 3px 3px; }
+  .pill-border:hover {
+    border: 1px solid #2E76A3;
+    background-color: #eeeeee; }
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #FFA750; }
+
+.carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover {
+  color: #FFA750; }
+
+.carousel-indicators li {
+  background-color: #555555; }
+
+.carousel-indicators .active {
+  background-color: #FFA750; }
