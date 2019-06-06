@@ -6530,6 +6530,52 @@ body {
   background: #2E76A3 url("assets/header-bg2.png") center left no-repeat;
   background-position: contain; }
 
+.nav-mobile-home {
+  display: none; }
+
+@media screen and (max-width: 414px) {
+  .nav-mobile-home {
+    display: block;
+    color: white !important; } }
+
+.navbar-brand {
+  display: none; }
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
+  .navbar-brand {
+    display: block;
+    text-indent: -9999px;
+    width: 79px;
+    margin-right: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url(assets/patric-logo-88h.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat; } }
+
+@media screen and (max-width: 480px) {
+  .navbar-patric {
+    padding: .75rem .25rem; }
+  .nav-link.dropdown-toggle {
+    display: flex;
+    flex-direction: column; }
+    .nav-link.dropdown-toggle::after {
+      margin-top: .255rem; } }
+
+@media screen and (min-width: 480px) {
+  .navbar-brand {
+    display: block;
+    text-indent: -9999px;
+    width: 111px;
+    margin-right: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url(assets/patric-logo-88h.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat; } }
+
 .hr--brand {
   border-top: 3px solid #FFA750; }
 
@@ -6537,6 +6583,7 @@ body {
   border-top: 1px solid #FFA750; }
 
 .navbar-patric {
+  min-width: 290px;
   background: #2e76a3 !important;
   background: linear-gradient(to bottom, #2e76a3 0%, #154e72 100%) !important;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e76a3', endColorstr='#154e72',GradientType=0 );
@@ -6561,9 +6608,6 @@ body {
   opacity: 0;
   background-color: #fff; }
 
-.navbar-brand {
-  padding: 0px; }
-
 .navbar-patric > .nav > div > .nav-item {
   padding: .125rem .125rem;
   margin: 0; }
@@ -6576,13 +6620,6 @@ body {
 .navbar-patric > .nav > div > .nav-item > .nav-link.dropdown-toggle:hover, .navbar-patric > .nav > div > .nav-item > .nav-link.dropdown-toggle:active, .navbar-patric > .nav > div > .nav-item > .nav-link.dropdown-toggle:focus {
   background-color: rgba(0, 0, 0, 0.17);
   border-radius: 25px; }
-
-.navbar-brand {
-  text-indent: -9999px;
-  width: 111px;
-  margin-top: 1px;
-  margin-right: 0px;
-  color: white; }
 
 /* keep nav bar expanded to mobile */
 .navbar-expand-sm {
