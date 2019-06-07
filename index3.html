@@ -483,7 +483,7 @@
       </div>
     </div>
   </div>
-  <div class="py-3" style="">
+  <div class="" style="">
     <div class="container">
       <div class="row d-flex align-items-stretch flex-grow-1">
         <div class="col-md-8 d-flex flex-column">
@@ -496,7 +496,7 @@
                   <p><b>PATRIC</b>, the <b>PAThosystems Resource Integration Center</b>, is the NIH/NIAID-funded Bacterial Bioinformatics Resource Center, <i>a web-based resource providing integrated omics data and analysis tools</i> to support biomedical research on bacterial infectious diseases and antimicrobial resistance.</p>
                   <h6 class=""><b>What can Patric do for you?</b></h6>
                   <hr class="hr--brand-sm col-2 ml-0 mt-0">
-                  <p class="">At PATRIC, users can <i>upload</i> their private data into a workspace, <i>analyze</i> it using high-throughput services, <i>compare</i> it with other public data using visual analytics tools, and <i>share</i> results with other users.</p>
+                  <p class="">At PATRIC, users can <i>upload</i> their private data into a workspace, <i>analyze</i> it using high-throughput services, <i>compare</i> it with other public data using visual analytics tools, and <i>share</i> results with other users.</p><a href="#" class="btn btn-primary"><i class="fa fa-play-circle"></i> Watch Introduction Video</a>
                 </div>
                 <div class="col-md-4" style="">
                   <h6 contenteditable="true"><strong>Browse Organisms</strong></h6>
@@ -532,51 +532,29 @@
                   <form class="">
                     <div class="form-group"> <label style="display:none">Search</label> <input type="text" class="form-control"> </div>
                   </form>
-                  <div class="row mb-3">
+                  <div class="row">
                     <div class="col-lg-6">
-                      <legend class="col-form-label mb-2">Advanced Search</legend>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="">
-                        <label class="form-check-label" for="gridRadios1"> ALL Terms </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                        <label class="form-check-label" for="gridRadios2"> ALL Terms Exactly </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                        <label class="form-check-label" for="gridRadios3"> ANY Terms </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
-                        <label class="form-check-label" for="gridRadios4"> ANY Terms Exactly </label>
+                      <div class="btn-group mb-3 d-flex">
+                        <button class="btn btn-primary btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Terms </button>
+                        <div class="dropdown-menu" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
+                          <a class="dropdown-item" href="#">ALL Terms</a>
+                          <a class="dropdown-item" href="#">ALL Terms Exactly</a>
+                          <a class="dropdown-item" href="#">ANY Terms</a>
+                          <a class="dropdown-item" href="#">ANY Terms Exactly</a>
+                        </div>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <legend class="col-form-label mb-2">Data Types</legend>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="">
-                        <label class="form-check-label" for="gridRadios1"> ALL Data Types </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                        <label class="form-check-label" for="gridRadios2"> Genomes </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                        <label class="form-check-label" for="gridRadios3"> Specialty Genes </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
-                        <label class="form-check-label" for="gridRadios4"> Taxa </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                        <label class="form-check-label" for="gridRadios5"> Transcriptomics Experiments </label>
-                      </div>
-                      <div class="form-check mb-2">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios6" value="option6">
-                        <label class="form-check-label" for="gridRadios6"> Antibiotic </label>
+                      <div class="btn-group mb-3 d-flex">
+                        <button class="btn btn-primary btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Data Types </button>
+                        <div class="dropdown-menu" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
+                          <a class="dropdown-item" href="#">ALL Data Types</a>
+                          <a class="dropdown-item" href="#">Genomes</a>
+                          <a class="dropdown-item" href="#">Specialty Genes</a>
+                          <a class="dropdown-item" href="#">Taxa</a>
+                          <a class="dropdown-item" href="#">Transcriptomics Experiments</a>
+                          <a class="dropdown-item" href="#">Antibiotic</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -584,18 +562,20 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 d-flex flex-column">
-              <div class="d-flex flex-grow-1">
-                <div class="embed-responsive embed-responsive-16by9 mb-3">
-                  <iframe src="https://www.youtube.com/embed/K3eL4i9vQBo?controls=0" allowfullscreen="" class="embed-responsive-item"></iframe>
-                </div>
-              </div>
-              <div class="card mb-3">
+            <div class="col-md-6 d-flex flex-grow-1 justify-content-start">
+              <div class="card mb-3 d-flex flex-grow-1">
                 <div class="card-body">
                   <h6 class="card-title"><b>My Data</b></h6>
                   <hr class="hr--brand-sm col-2 ml-0 mt-0">
-                  <p class="">My Workspaces<br>Public Workspaces<br><br>0 Genome Groups<br>0 Feature Groups<br>0 Experiment groups</p>
-                  <div class="d-flex align-items-center flex-wrap justify-content-start mb-3">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p class="">My Workspaces<br>Public Workspaces<br><br><br></p>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="">0 Genome Groups<br>0 Feature Groups<br>0 Experiment groups</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center flex-wrap  justify-content-center">
                     <a class="btn btn-primary mb-3" href="#"><i class="fa fa-user-plus fa-fw"></i>&nbsp;Sign-up </a>
                     <p class="mb-3" contenteditable="true">&nbsp;or&nbsp;</p>
                     <a class="btn btn-primary mb-3" href="#"><i class="fa fa-sign-in-alt fa-fw"></i>&nbsp;Login </a>
@@ -606,7 +586,7 @@
           </div>
         </div>
         <div class="col-md-4 d-flex flex-column">
-          <div class="card mb-3"> <img class="card-img-top" src="assets/patric-web-app@2x.png" alt="Card image cap">
+          <div class="card mb-3">
             <div class="card-body">
               <h6 class=""><b>Latest News</b></h6>
               <hr class="hr--brand-sm col-2 ml-0 mt-0">
@@ -618,29 +598,20 @@
             <div class="card-body">
               <h6 class="" style=""><b>Latest Twitter</b></h6>
               <hr class="hr--brand-sm col-2 ml-0 mt-0">
-              <img class="img-fluid d-block" src="assets/twitter.jpg">
+              <img class="d-block" src="assets/twitter.jpg" height="200px" width="100%">
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="text-center">
-    <div class="container">
-      <div class="row justify-content-center mt-3">
-        <div class="col-md-11">
-          <h2 style="">Data Services</h2>
-          <hr class="hr--brand col-2">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-4">
+  <div class="pb-4">
     <div class="container">
       <!-- Data Services -->
       <div class="row ">
-        <div class="p-3 col-lg-4 col-md-6">
-          <h6 class="text-center m-0 p-0 pb-2"><b>Genomics</b></h6>
+        <div class="col-lg-4 col-md-6">
+          <h6 class=" m-0 p-0 pb-2" style=""><b>Genomics</b></h6>
+          <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <div class="carousel slide" data-ride="carousel" id="servicesGenomics" data-interval="false">
             <ol class="carousel-indicators">
               <li data-target="#servicesGenomics" data-slide-to="0" class=""></li>
@@ -654,7 +625,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -669,7 +640,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -684,7 +655,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -704,8 +675,9 @@
             </a>
           </div>
         </div>
-        <div class="p-3 col-lg-4 col-md-6">
-          <h6 class="text-center m-0 p-0 pb-2"><b>Metagenomics</b></h6>
+        <div class="col-lg-4 col-md-6">
+          <h6 class="m-0 p-0 pb-2"><b>Metagenomics</b></h6>
+          <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <div class="carousel slide" data-ride="carousel" id="servicesMetagenomics" data-interval="false">
             <ol class="carousel-indicators">
               <li data-target="#servicesMetagenomics" data-slide-to="0" class=""></li>
@@ -719,7 +691,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -734,7 +706,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -749,7 +721,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -769,12 +741,13 @@
             </a>
           </div>
         </div>
-        <div class="p-3 col-lg-4 col-md-6">
-          <h6 class="text-center m-0 p-0 pb-2"><b>Transcriptomics</b></h6>
+        <div class="col-lg-4 col-md-6">
+          <h6 class=" m-0 p-0 pb-2"><b>Transcriptomics</b></h6>
+          <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <div class="carousel slide" data-ride="carousel" id="servicesTranscriptomics" data-interval="false">
             <ol class="carousel-indicators">
               <li data-target="#servicesTranscriptomics" data-slide-to="0" class=""></li>
-              <li data-target="#servicesTranscriptomics" data-slide-to="1"></li>
+              <li data-target="#servicesTranscriptomics" data-slide-to="1" class=""></li>
               <li data-target="#servicesTranscriptomics" data-slide-to="2" class="active"></li>
             </ol>
             <div class=" carousel-inner pb-4">
@@ -784,7 +757,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -799,7 +772,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -814,7 +787,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -834,52 +807,53 @@
             </a>
           </div>
         </div>
-        <div class="p-3 col-lg-4 col-md-6">
-          <h6 class="text-center m-0 p-0 pb-2"><b>Protein Tools</b></h6>
+        <div class="col-lg-4 col-md-6">
+          <h6 class=" m-0 p-0 pb-2"><b>Protein Tools</b></h6>
+          <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <div class="carousel slide" data-ride="carousel" id="servicesProteinTools" data-interval="false">
             <ol class="carousel-indicators">
-              <li data-target="#servicesProteinTools" data-slide-to="0" class=""></li>
-              <li data-target="#servicesProteinTools" data-slide-to="1"></li>
-              <li data-target="#servicesProteinTools" data-slide-to="2" class="active"></li>
+              <li data-target="#servicesProteinTools" data-slide-to="0" class="active"></li>
+              <li data-target="#servicesProteinTools" data-slide-to="1" class=""></li>
+              <li data-target="#servicesProteinTools" data-slide-to="2" class=""></li>
             </ol>
             <div class=" carousel-inner pb-4">
-              <div class="carousel-item">
-                <div class="card box-shadow">
-                  <img class="card-img-top" src="assets/patric-web-app@2x.png">
-                  <div class="card-body">
-                    <h5 class="text-center">Assembly</h5>
-                    <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card box-shadow">
-                  <img class="card-img-top" src="assets/patric-web-app@2x.png">
-                  <div class="card-body">
-                    <h5 class="text-center">Assembly</h5>
-                    <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="carousel-item active">
                 <div class="card box-shadow">
                   <img class="card-img-top" src="assets/patric-web-app@2x.png">
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card box-shadow">
+                  <img class="card-img-top" src="assets/patric-web-app@2x.png">
+                  <div class="card-body">
+                    <h5 class="text-center">Assembly</h5>
+                    <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
+                    <div class="d-flex justify-content-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card box-shadow">
+                  <img class="card-img-top" src="assets/patric-web-app@2x.png">
+                  <div class="card-body">
+                    <h5 class="text-center">Assembly</h5>
+                    <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -899,37 +873,23 @@
             </a>
           </div>
         </div>
-        <div class="p-3 col-lg-4 col-md-6">
-          <h6 class="text-center m-0 p-0 pb-2"><b>Metabolomics</b></h6>
+        <div class="col-lg-4 col-md-6">
+          <h6 class=" m-0 p-0 pb-2"><b>Metabolomics</b></h6>
+          <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <div class="carousel slide" data-ride="carousel" id="servicesMetabolomics" data-interval="false">
             <ol class="carousel-indicators">
-              <li data-target="#servicesMetabolomics" data-slide-to="0" class=""></li>
-              <li data-target="#servicesMetabolomics" data-slide-to="1" class="active"></li>
+              <li data-target="#servicesMetabolomics" data-slide-to="0" class="active"></li>
+              <li data-target="#servicesMetabolomics" data-slide-to="1" class=""></li>
               <li data-target="#servicesMetabolomics" data-slide-to="2" class=""></li>
             </ol>
             <div class=" carousel-inner pb-4">
-              <div class="carousel-item">
-                <div class="card box-shadow">
-                  <img class="card-img-top" src="assets/patric-web-app@2x.png">
-                  <div class="card-body">
-                    <h5 class="text-center">Assembly</h5>
-                    <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="carousel-item active">
                 <div class="card box-shadow">
                   <img class="card-img-top" src="assets/patric-web-app@2x.png">
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -944,7 +904,22 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card box-shadow">
+                  <img class="card-img-top" src="assets/patric-web-app@2x.png">
+                  <div class="card-body">
+                    <h5 class="text-center">Assembly</h5>
+                    <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -964,8 +939,9 @@
             </a>
           </div>
         </div>
-        <div class="p-3 col-lg-4 col-md-6">
-          <h6 class="text-center m-0 p-0 pb-2"><b>Data</b></h6>
+        <div class="col-lg-4 col-md-6">
+          <h6 class=" m-0 p-0 pb-2"><b>Data</b></h6>
+          <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <div class="carousel slide" data-ride="carousel" id="servicesData" data-interval="false">
             <ol class="carousel-indicators">
               <li data-target="#servicesData" data-slide-to="0" class=""></li>
@@ -979,7 +955,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -994,7 +970,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -1009,7 +985,7 @@
                   <div class="card-body">
                     <h5 class="text-center">Assembly</h5>
                     <p class="card-text">The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. The service attempts to select the best assembly.</p>
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-info-circle"></i> User Guide</button>
                         <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa fa-book-open"></i> Tutorial</button>
@@ -1117,7 +1093,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" style=""></script>
   <script src="assets/js/patric_ui.js"></script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
-  <iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe>
 </body>
 
 </html>
