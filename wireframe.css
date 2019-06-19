@@ -6696,6 +6696,14 @@ body {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px; }
 
+@media screen and (max-width: 500px) {
+  .foot-programs {
+    text-align: center; } }
+
+@media screen and (min-width: 499px) {
+  .foot-programs {
+    text-align: right; } }
+
 @media screen and (min-width: 768px) {
   #adv-search #adv-search {
     width: 500px;
