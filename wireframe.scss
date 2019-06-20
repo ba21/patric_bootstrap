@@ -250,6 +250,14 @@ border-top: 0;
 	color: theme-color(secondary);
 }
 
+.carousel-control-prev {
+	left: -20px;
+}
+
+.carousel-control-next {
+  right: -20px;
+}
+
 .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover {
 	color: theme-color(secondary);
 }

@@ -6660,6 +6660,12 @@ body {
 .carousel-control-next {
   color: #FFA750; }
 
+.carousel-control-prev {
+  left: -20px; }
+
+.carousel-control-next {
+  right: -20px; }
+
 .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover {
   color: #FFA750; }
 
