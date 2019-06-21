@@ -6658,7 +6658,9 @@ body {
 
 .carousel-control-prev,
 .carousel-control-next {
-  color: #FFA750; }
+  color: #FFA750;
+  align-items: start;
+  top: 210px; }
 
 .carousel-control-prev {
   left: -20px; }

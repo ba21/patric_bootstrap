@@ -248,6 +248,8 @@ border-top: 0;
 
 .carousel-control-prev, .carousel-control-next {
 	color: theme-color(secondary);
+  align-items: start;
+  top: 210px;
 }
 
 .carousel-control-prev {
