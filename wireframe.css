@@ -6723,3 +6723,59 @@ body {
     position: static !important; }
   #adv-search .dropdown.dropdown-lg .dropdown-menu {
     min-width: 500px; } }
+
+/****** Navbar alt ******/
+.navbar-patric-alt {
+  min-width: 290px;
+  background: #2e76a3 !important;
+  background: linear-gradient(to bottom, #2e76a3 0%, #154e72 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e76a3', endColorstr='#154e72',GradientType=0 );
+  border-top: 3px solid #154E72;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+/* makes the dropdown full width */
+.navbar-patric-alt > .nav > .dropdown {
+  position: static; }
+
+.navbar-patric-alt > .nav > .dropdown > .dropdown-menu {
+  border: none !important;
+  border-radius: 0 0 0 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 54px;
+  transition: visibility 0s, opacity 0.25s linear;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #fff; }
+
+.navbar-patric-alt > .nav > .dropdown > .dropdown-menu.show {
+  visibility: visible !important;
+  opacity: 100; }
+
+.navbar-patric-alt > .nav > .nav-item {
+  padding: .125rem .125rem;
+  margin: 0; }
+
+.navbar-patric-alt > .nav > .nav-item > .nav-link.dropdown-toggle {
+  font-family: Lato;
+  font-size: .75rem;
+  color: white !important; }
+
+.navbar-patric-alt > .nav > .nav-item > .nav-link.dropdown-toggle:hover, .navbar-patric-alt > .nav > .nav-item > .nav-link.dropdown-toggle:active, .navbar-patric-alt > .nav > .nav-item > .nav-link.dropdown-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.17);
+  border-radius: 25px; }
+
+/* keep nav bar expanded to mobile */
+.navbar-expand-sm {
+  flex-flow: row nowrap;
+  justify-content: flex-start; }
+
+/* shows the dropdown menu on hover */
+.navbar-patric-alt > .nav > .dropdown:hover > .dropdown-menu, .navbar-patric-alt > .nav > .dropdown > .dropdown-menu:hover, .navbar-patric-alt > .nav > .dropdown.show > .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.25s linear; }
