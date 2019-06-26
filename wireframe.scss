@@ -51,8 +51,6 @@ $enable-responsive-font-sizes: true;
 $font-size-base: .875rem;
 
 @import 'bootstrap-4.1.3';
-
-pingendo { display: none !important; }
  
 html,body {
    height:100%;
@@ -338,6 +336,29 @@ color: #2E76A3;
 /****** Navbar alt ******/
 
 
+.navbar-patric-alt-vert
+{ 
+
+  
+  .nav-link{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+	}
+  
+  .dropdown-toggle::after { margin-top: .125em;}
+  
+  .nav-link.dropdown-toggle {
+    padding: .425rem 1.125rem;
+  }
+  
+  .nav>.dropdown>.dropdown-menu {
+  	top:50px !important;
+  }
+}
+  
+
 .navbar-patric-alt>.nav>.nav-item {}
 .navbar-patric-alt>.nav>.dropdown>.dropdown-menu {}
 
@@ -387,8 +408,12 @@ width: 100%;
   }
 
 .navbar-patric-alt>.nav>.nav-item>.nav-link.dropdown-toggle:hover, .navbar-patric-alt>.nav>.nav-item>.nav-link.dropdown-toggle:active, .navbar-patric-alt>.nav>.nav-item>.nav-link.dropdown-toggle:focus {
-background-color: rgba(0,0,0,.17);
+/** background-color: rgba(0,0,0,.17);
   border-radius: 25px;
+**/
+		border-top: 3px solid theme-color(secondary);
+  	margin-top: -3px !important;
+
 }
 
 
