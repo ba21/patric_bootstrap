@@ -437,3 +437,15 @@ justify-content: flex-start;
 
 .navbar-patric-alt>.nav>.dropdown:hover, .navbar-patric-alt>.nav>.dropdown.show {
 }
+
+/*****************************/
+/* Navbar customizations     */
+
+#navbarDropdown_search_menu {
+  label {
+  	font-family: $headings-font-family;
+  }
+legend {
+  	font-family: $headings-font-family;
+  }
+}

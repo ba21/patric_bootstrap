@@ -6794,3 +6794,11 @@ body {
   visibility: visible;
   opacity: 1;
   transition: visibility 0s, opacity 0.25s linear; }
+
+/*****************************/
+/* Navbar customizations     */
+#navbarDropdown_search_menu label {
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif; }
+
+#navbarDropdown_search_menu legend {
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif; }
