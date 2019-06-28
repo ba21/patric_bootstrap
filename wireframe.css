@@ -6519,11 +6519,13 @@ html, body {
 body {
   background: #F5F5F5; }
 
-.btn, .btn-primary, .btn-secondary, .btn-outline-secondary, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+#search-input {
+  border: 0px; }
+
+.btn, .btn-primary, .btn-secondary, .btn-outline-secondary, .nav-pills .nav-link.active, .nav-pills .show > .nav-link, #search-input {
   border-radius: 25px; }
 
 .bg-home-bacteria {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+51,d5ebfb+100;Blue+Gloss+%234 */
   background: #2E76A3 url("assets/header-bg2.png") center left no-repeat;
   background-position: contain; }
 
