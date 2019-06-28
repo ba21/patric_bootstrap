@@ -487,9 +487,9 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-8 flex-grow-1 d-flex">
+      <div class="col-md-8 flex-grow-1 d-flex mb-3">
         <div class="card box-shadow d-flex flex-grow-1">
-          <div class="card-body d-flex flex-column justify-content-between">
+          <div class="card-body d-flex flex-column justify-content-between mb-0 pb-0">
             <div class="row mb-2 ">
               <div class="col-md-12" style="">
                 <h6 class=""><b>What is PATRIC?</b></h6>
@@ -520,18 +520,13 @@
                 </div>
               </div>
             </div>
-            <div class="row bg-primary rounded box-shadow m-0 p-2 pt-3" style="background:center left no-repeat;background-image:url(assets/header-bg2.png);background-size:900px">
-              <div class="col-md-6">
-                <h6 style="" class=""><strong>Search</strong></h6>
-                <hr class="hr--brand-sm col-2 ml-0 mt-0 mb-4">
-                <form class="">
-                  <div class="form-group"> <label style="display:none">Search</label> <input type="text" class="form-control shadow-sm"> </div>
-                </form>
-              </div>
-              <div class="col-md-6">
-                <div class="row mt-1">
-                  <div class="col-lg-6">
-                    <div class="btn-group mb-3 d-flex shadow-sm">
+            <div class="row bg-primary rounded row--search" style="background:center left no-repeat;background-image:url(assets/header-bg2.png);background-size:900px">
+              <div class="col-md-12 py-3">
+                <h6><strong>Search</strong></h6>
+                <hr class="hr--brand-sm col-2 ml-0 mt-0 mb-3">
+                <form>
+                  <div class="d-flex align-items-center">
+                    <div class="btn-group pr-1">
                       <button class="btn btn-light btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Data Types </button>
                       <div class="dropdown-menu" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
                         <a class="dropdown-item" href="#">ALL Data Types</a>
@@ -542,9 +537,8 @@
                         <a class="dropdown-item" href="#">Antibiotic</a>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="btn-group mb-3 shadow-sm d-flex">
+                    <div class="form-group flex-grow-1 mb-0 pr-1"> <label style="display:none">Search</label> <input type="text" class="form-control"> </div>
+                    <div class="btn-group pr-1">
                       <button class="btn btn-light btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> Terms </button>
                       <div class="dropdown-menu" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
                         <a class="dropdown-item" href="#">ALL Terms</a>
@@ -553,15 +547,23 @@
                         <a class="dropdown-item" href="#">ANY Terms Exactly</a>
                       </div>
                     </div>
+                    <button type="submit" class="btn btn-secondary">Search</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <div class="row mt-1">
+                  <div class="col-lg-6">
+                  </div>
+                  <div class="col-lg-6">
                   </div>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-block shadow-sm mb-0">Search</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 d-flex flex-column flex-grow-1">
+      <div class="col-md-4 d-flex flex-column flex-grow-1 mb-3">
         <div class="card align-self-stretch flex-grow-1 box-shadow">
           <div class="card-header">
             <ul class="nav nav-pills nav-fill card-header-pills" id="pills-tab" role="tablist">
@@ -643,9 +645,9 @@
       </div>
     </div>
   </div>
-  <div class="text-center">
+  <div class="text-center mt-4">
     <div class="container">
-      <div class="row justify-content-center mt-3">
+      <div class="row justify-content-center">
         <div class="col-md-11">
           <h2>Services and Tools</h2>
           <hr class="hr--brand col-2">
@@ -653,7 +655,7 @@
       </div>
     </div>
   </div>
-  <div class="pb-4">
+  <div class="">
     <!-- Data Services -->
     <div class="container">
       <div class="row ">
@@ -1061,9 +1063,9 @@
       </div>
     </div>
   </div>
-  <div class="text-center">
+  <div class="text-center mt-4">
     <div class="container">
-      <div class="row justify-content-center mt-3">
+      <div class="row justify-content-center">
         <div class="col-md-11">
           <h2 style="">More About PATRIC</h2>
           <hr class="hr--brand col-2">
@@ -1074,7 +1076,7 @@
   <div class="pb-3">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 p-3" draggable="true">
+        <div class="col-md-6 p-3">
           <h6 class="mb-2"> <b>Key Features</b></h6>
           <hr class="hr--brand-sm col-2 ml-0 mt-0">
           <ul>

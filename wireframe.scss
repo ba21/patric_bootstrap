@@ -449,3 +449,12 @@ legend {
   	font-family: $headings-font-family;
   }
 }
+
+.row--search {
+  margin-right: -20px;
+  margin-left: -20px;
+  &.rounded {
+	border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+	}
+}

@@ -6802,3 +6802,10 @@ body {
 
 #navbarDropdown_search_menu legend {
   font-family: Lato, "Helvetica Neue", Arial, sans-serif; }
+
+.row--search {
+  margin-right: -20px;
+  margin-left: -20px; }
+  .row--search.rounded {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important; }
