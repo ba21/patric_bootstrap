@@ -254,7 +254,21 @@ color: #2E76A3;
 .carousel-control-prev, .carousel-control-next {
 	color: theme-color(secondary);
   align-items: start;
+}
+
+.card-news {
+.carousel-control-prev, .carousel-control-next {
+    padding-top: 5px;
+
+  }
+
+}
+
+.card-services {
+.carousel-control-prev, .carousel-control-next {
   padding-top: 210px;
+
+  }
 }
 
 .carousel-control-prev {

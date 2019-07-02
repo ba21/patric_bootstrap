@@ -6661,7 +6661,12 @@ body {
 .carousel-control-prev,
 .carousel-control-next {
   color: #FFA750;
-  align-items: start;
+  align-items: start; }
+
+.card-news .carousel-control-prev, .card-news .carousel-control-next {
+  padding-top: 5px; }
+
+.card-services .carousel-control-prev, .card-services .carousel-control-next {
   padding-top: 210px; }
 
 .carousel-control-prev {
