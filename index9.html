@@ -11,11 +11,13 @@
   <meta name="keywords">
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto:400,700&amp;display=swap">
   <link rel="stylesheet" href="wireframe.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand navbar-patric shadow navbar-light bg-primary" role="navigation">
+<body class="patric-bootstrap">
+  <!--/nav START-->
+  <nav class="navbar navbar-expand navbar-patric patric-bootstrap__nav shadow navbar-light bg-primary" role="navigation">
     <ul class="nav navbar-nav d-flex flex-grow-1 justify-content-center">
       <div class="d-flex nav-left mr-auto">
         <li class="nav-item dropdown">
@@ -24,7 +26,7 @@
             <span class="d-none d-lg-inline" style="">Browse</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <div class="container mt-3 mb-3">
+            <div class="container-fluid mt-3 mb-3">
               <div class="row">
                 <div class="col-md-12 mb-0" style="">
                   <h6><strong>Browse All</strong></h6>
@@ -104,7 +106,7 @@
             <span class="d-none d-lg-inline">Services</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown__services">
-            <div class="container mt-3 mb-3">
+            <div class="container-fluid mt-3 mb-3">
               <div class="row">
                 <div class="col-md-3">
                   <h6><strong>Genomics</strong></h6>
@@ -170,7 +172,7 @@
             <span class="d-none d-lg-inline">My Workspace</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown__workspace">
-            <div class="container mb-3 mt-3">
+            <div class="container-fluid mb-3 mt-3">
               <div class="row">
                 <div class="col-md-3">
                   <h6><strong>My Account</strong></h6>
@@ -296,7 +298,7 @@
             <span class="d-none d-lg-inline">Docs</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown__docs">
-            <div class="container mt-3 mb-3">
+            <div class="container-fluid mt-3 mb-3">
               <div class="row">
                 <div class="col-md-4">
                   <h6><strong>User Guides</strong></h6>
@@ -366,7 +368,7 @@
             <span class="d-none d-lg-inline">About</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown__about">
-            <div class="container mt-3 mb-3">
+            <div class="container-fluid mt-3 mb-3">
               <div class="row">
                 <div class="col-md-3 mb-3">
                   <h6><strong>About Us</strong></h6>
@@ -425,7 +427,7 @@
             <span class="d-none d-lg-inline" style="">Contact</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown__contact">
-            <div class="container mb-3 mt-3">
+            <div class="container-fluid mb-3 mt-3">
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <h6><strong>Email PATRIC</strong></h6>
@@ -451,30 +453,7 @@
       </div>
     </ul>
   </nav>
-  <div class="collapse bg-primary" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 py-4">
-          <h4>About</h4>
-          <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div class="col-md-3 offset-md-1 py-4">
-          <h4>Contact</h4>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#" class="text-secondary">Follow on Twitter</a>
-            </li>
-            <li>
-              <a href="#" class="text-secondary">Like on Facebook</a>
-            </li>
-            <li>
-              <a href="#" class="text-secondary">Email me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!--/nav END-->
   <div class="text-center pt-4">
     <div class="container">
       <div class="row justify-content-center">
@@ -1110,7 +1089,7 @@
             <small>Current version: 3.5.38</small>
           </p>
           <hr class="mb-1">
-          <div class="share_links d-flex flex-row align-items-between justify-content-between align-items-center flex-grow-1">
+          <div class="share_links d-flex align-items-between flex-grow-1 align-items-center justify-content-between">
             <h6 class="m-0 p-0"><strong>Follow Us</strong></h6>
             <a class="btn btn-link" href="#" style="color:#55acee" target="_blank"><i class="fab fa-fw fa-1x py-1 fa-twitter"></i> Twitter</a><a class="btn btn-link" style="color:#3b5998" target="_blank" href="#"><i class="fab fa-facebook fa-fw fa-1x py-1"></i> Facebook</a><a class="btn btn-link" href="#" style="color:#e52d27" target="_blank"><i class="fab fa-youtube-square fa-fw fa-1x py-1"></i> Youtube</a><a class="btn btn-link" style="" target="_blank" href="#"><i class="fa fa-fw fa-1x py-1 fa-rss"></i> RSS</a><a class="btn text-white" href="#" style="background:#dd4b39" target="_blank"><i class="fa fa-share fa-fw fa-1x py-1"></i> Share This Site</a>
           </div>
@@ -1144,7 +1123,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" style=""></script>
-  <script src="assets/js/patric_ui.js" style=""></script>
 </body>
 
 </html>
