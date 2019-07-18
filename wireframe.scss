@@ -338,6 +338,9 @@ color: #2E76A3;
   .foot-programs {
   	text-align: center;
   }
+  .row--search__fields {
+  	flex-direction: column;
+  } 
 }
 @media screen and (min-width: 499px) {
   .foot-programs {
@@ -384,6 +387,10 @@ legend {
 .row--search {
   margin-right: -20px;
   margin-left: -20px;
+	background:center left no-repeat;
+  background-image:url(assets/header-bg2.png);
+  background-size:900px;
+  
   &.rounded {
 	border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
