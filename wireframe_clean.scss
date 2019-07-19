@@ -20,7 +20,7 @@ $enable-print-styles: true;
 
 $theme-colors: (
   primary: #2e76a3,
-  secondary: #ffa750,
+  secondary: #E57200,
   light: #ffffff,
   dark: #555555,
   info: #8e8e8e,
@@ -109,6 +109,10 @@ $enable-responsive-font-sizes: true;
   }
 }
 
+.nav-link {
+	padding: 8px;
+}
+
 .navbar-nav {
   align-items: center;
 }
@@ -149,12 +153,13 @@ $enable-responsive-font-sizes: true;
   .navbar-brand {
     display: block;
     text-indent: -9999px;
-    width: 111px;
+    width: 132px;
     margin-right: 0px;
+    margin-top: -1px;
     padding: 0px;
     color: white;
     background-image: url("public/assets/patric-logo-88h.png");
-    background-position: center center;
+    background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -177,8 +182,8 @@ $enable-responsive-font-sizes: true;
 }
 
 /* makes the dropdown full width */
-.navbar-patric {
-  .dropdown {
+.navbar-patric > .nav {
+  & > .dropdown {
     position: static;
    	& > .dropdown-menu {
     border: none !important;
@@ -186,7 +191,7 @@ $enable-responsive-font-sizes: true;
     width: 100%;
     left: 0;
     right: 0;
-    top: 36px;
+    top: 33px;
     transition: visibility 0s, opacity 0.25s linear;
     display: block;
     visibility: hidden;
@@ -199,8 +204,23 @@ $enable-responsive-font-sizes: true;
   	}
   }
 
+    /* shows the dropdown menu on hover */
+  & > .dropdown:hover > .dropdown-menu,
+  & > .dropdown > .dropdown-menu:hover,
+  & > .dropdown.show > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.25s linear;
+  }
+  & > .dropdown:hover,
+  & > .dropdown.show {
+    border-top: 3px solid theme-color(secondary);
+    margin-top: -3px !important;
+  }
+
   .nav-item {
-    padding: 0.125rem 0.125rem;
+    padding: 0 5px 0 0;
     margin: 0;
   }
 
@@ -216,20 +236,6 @@ $enable-responsive-font-sizes: true;
     border-radius: 25px;
 */
     color: white !important;
-  }
-  /* shows the dropdown menu on hover */
-  .dropdown:hover > .dropdown-menu,
-  .dropdown > .dropdown-menu:hover,
-  .dropdown.show > .dropdown-menu {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s, opacity 0.25s linear;
-  }
-  .dropdown:hover,
-  .dropdown.show {
-    border-top: 3px solid theme-color(secondary);
-    margin-top: -3px !important;
   }
 }
 
@@ -389,8 +395,7 @@ $enable-responsive-font-sizes: true;
 .row--search {
   margin-right: -20px;
   margin-left: -20px;
-  background: center left no-repeat;
-  background-image: url(assets/header-bg2.png);
+  background: theme-color(primary) url(assets/header-bg2.png) center left no-repeat;
   background-size: 900px;
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
